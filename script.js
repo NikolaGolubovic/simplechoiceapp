@@ -33,8 +33,10 @@ btn.addEventListener("click", (e) => {
     .join("")
     .split(" ")
     .filter((x) => x && x.trim() !== "");
+
   let index = 0;
   const times = getTimes();
+
   function spin() {
     choiceText.textContent = names[Math.floor(Math.random() * names.length)];
     index++;

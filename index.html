@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Pick Name</title>
   </head>
   <body>
-    <form action="">
-      <label for="choices">Enter your choices (for example: John Mike Leo):</label>
-      <textarea placeholder="Options..." id="names">John Leo Mike</textarea>
-      <button class="btn">Choose</button>
-    </form>
-    <div class="choice-wrapper">
-      <p class="choice"></p>
+    <div class="container">
+      <form>
+        <label for="choices">Enter your choices (for example: John Mike Leo):</label>
+        <textarea placeholder="Options..." id="names">John Leo Mike</textarea>
+        <button class="btn">Spin</button>
+      </form>
+      <div class="choice-wrapper">
+        <p class="choice"></p>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
